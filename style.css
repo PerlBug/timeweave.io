@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgba(85,201,137,0.8);
+    background-color: rgba(85,201,137,1);
     font-size: 120%;
 }
 
@@ -29,5 +29,15 @@
 }
 
 .green-container{
-    background-color: rgba(85,201,137,0.8);
+    background-color: rgba(85,201,137,1);
+}
+
+.h2-main {
+    padding-top:80px;
+    padding-bottom:100px;
+}
+
+.embed-video{
+    padding-bottom: 50px;
+    padding-top: 0px;
 }
