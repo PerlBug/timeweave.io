@@ -4,8 +4,16 @@
 }
 
 
-.logo {
-    padding: 10px;
+.logo1 {
+    padding:10px;
+    height: 20%;
+    width: 20%;
+
+}
+.logo2 {
+    padding:10px;
+    height:60% ;
+    width: 60%;
 }
 
 .navbar-dark .navbar-nav .nav-link {
