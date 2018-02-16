@@ -1,9 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: rgba(255,255,255,0.9);
+}
 .navbar {
     background-color: rgba(85,201,137,1);
     font-size: 120%;
 }
 
+.button-text{
+    padding:30px;
+    font-size: 30;
 
+}
+.btn {
+    background-color: rgba(255,255,255,0.9);
+    color: rgba(85,201,137,1);
+    border-color: rgba(255,255,255,0.9);
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:10px;
+    padding-bottom:10px ;
+    font-size:150%;
+
+
+}
 .logo1 {
     padding:10px;
     height: 20%;
@@ -34,10 +56,14 @@
 
 .h2-main {
     padding-top:80px;
-    padding-bottom:100px;
+    padding-bottom:40px;
 }
 
 .embed-video{
-    padding-bottom: 50px;
-    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.app-link{
+    padding:22px;
 }
