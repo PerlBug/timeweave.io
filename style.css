@@ -65,9 +65,10 @@ body{
 }
 
 .app-link{
-    padding:22px;
+    padding-right:22px;
 }
 
 .icon-box{
+    padding-left:0px;
     padding:20px;
 }
