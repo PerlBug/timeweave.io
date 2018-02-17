@@ -27,7 +27,6 @@ body{
 
 }
 .logo3 {
-    padding:10px;
     height: 80%;
     width: 80%;
 
@@ -65,6 +64,7 @@ body{
 }
 
 .icon-box{
-    padding-left:0px;
-    padding:20px;
+    padding:50px;
 }
+
+
