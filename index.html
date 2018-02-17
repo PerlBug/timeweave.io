@@ -61,7 +61,7 @@
    			 <div class="col-md-5">	      
 		  		<div class="container-fluid text-center text-lg-left">
 		  				<h2 class="h2-main">All your friends' timetables in one place.</h2>
-				      <button type="button" class="btn btn-primary">
+				      <button type="button" class="btn btn-primary" id="getStartedButton">
 				      	<span class="button-text .font-weight-light"> Get Started</span>
 				      </button>
 		      	</div>
@@ -100,6 +100,12 @@
 
     	
     	myVideo.addEventListener('click',clickHandler);
+
+    	$(document).ready(function(){
+		    $("#getStartedButton").click(function(){
+		        window.location.replace("https://app.timeweave.io/");
+		    });
+		});
 
 
     </script>
