@@ -70,8 +70,10 @@
 
 		    </div>
 		    <div class="col-md-7">
-				<div class="embed-responsive embed-responsive-16by9 embed-responsive-item ">
-		      		<iframe class="embed-video" frameborder="0" scrolling="no" marginheight="0" marginwidth="0 " src="https://www.youtube.com/embed/Q6Gvmem0in4?autoplay=1" allow="autoplay;" allowfullscreen></iframe>
+				<div align="center" class="embed-responsive embed-responsive-16by9">
+		    	<video id="video1" class="embed-responsive-item">
+		        <source src="vid.mp4" type=video/mp4>
+		    	</video>
 				</div>
 		    </div>
 		</div>
@@ -83,5 +85,23 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+    	var vidIsClicked = false;
+    	var myVideo = document.getElementById("video1");
+
+    	function clickHandler(){
+    		elementIsClicked = true;
+    		console.log('clicked');
+    		if (myVideo.paused) 
+        		myVideo.play(); 
+    		else 
+       			myVideo.pause(); 
+    	}
+
+    	
+    	myVideo.addEventListener('click',clickHandler);
+
+
+    </script>
   </body>
 </html>
