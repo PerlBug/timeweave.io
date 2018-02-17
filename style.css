@@ -63,7 +63,7 @@ body{
     background-color: rgba(160,160,159,0.8);
 }
 .h2-main {
-    padding-top:40px;
+    padding-top:100px;
     padding-bottom:40px;
 }
 .sub-text{
@@ -73,7 +73,7 @@ body{
 }
 @media (min-width: 992px) { 
     .h2-main {
-    padding-top:100px;
+    padding-top:170px;
     padding-bottom:40px;
     }
 
