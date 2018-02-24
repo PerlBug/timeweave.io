@@ -63,7 +63,7 @@ body{
 
 .h1-main{
     padding-top:5px;
-    font-size: 60px;
+    font-size: 40px;
     font-weight:300;
 }
 .grey-container{
@@ -72,6 +72,7 @@ body{
 
 .green-container-sub{
       background-color: rgba(85,201,137,1);
+      color: rgba(255,255,255,1);
 
 }
 .h2-main {
@@ -96,10 +97,15 @@ body{
         padding-top:10px
     }
     .h2-main {
-      font-size: 30px;
+      font-size: 40px;
     font-weight:400;
     padding-bottom:40px;
   }
+  .h1-main{
+    padding-top:5px;
+    font-size: 60px;
+    font-weight:300;
+}
 
 }
 
@@ -132,4 +138,11 @@ hr{
   padding-top: 60px;
 }
 
+#img-box{
+  padding-top: 10px;
+}
+
+.supported-uni{
+  padding:30px;
+}
 
