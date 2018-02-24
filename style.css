@@ -69,8 +69,13 @@ body{
 .grey-container{
     background-color: rgba(160,160,159,0.8);
 }
+
+.green-container-sub{
+      background-color: rgba(85,201,137,1);
+
+}
 .h2-main {
-      font-size: 40px;
+      font-size: 30px;
     font-weight:400;
     padding-bottom:40px;
   }
@@ -90,6 +95,11 @@ body{
     #title-box{
         padding-top:10px
     }
+    .h2-main {
+      font-size: 30px;
+    font-weight:400;
+    padding-bottom:40px;
+  }
 
 }
 
