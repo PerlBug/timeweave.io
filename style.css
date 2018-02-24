@@ -70,6 +70,8 @@ body{
     background-color: rgba(160,160,159,0.8);
 }
 .h2-main {
+      font-size: 40px;
+    font-weight:400;
     padding-bottom:40px;
   }
 .sub-text{
