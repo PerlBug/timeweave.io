@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+
+html, body {
+  overflow-x:hidden 
+} 
+
+
 body{
     font-family: 'Lato', sans-serif;
 
@@ -23,13 +30,15 @@ body{
     padding-top:10px;
     padding-bottom:10px ;
     font-size:150%;
-
-
 }
 .logo3 {
     height: 80%;
     width: 80%;
+}
 
+.logo1 {
+    height: 15%;
+    width: 15%;
 }
 
 
@@ -76,6 +85,13 @@ body{
     padding-top:170px;
     padding-bottom:40px;
     }
+
+    .logo3 {
+    height: 400%;
+    width: 400%;
+
+}
+
 
 }
 
